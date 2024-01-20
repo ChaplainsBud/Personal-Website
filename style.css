@@ -32,3 +32,21 @@ footer {
     text-align: center;
     padding: 1em 0;
 }
+
+/* Responsive design */
+@media (max-width: 768px) {
+    header, section, footer {
+        padding: 20px;
+    }
+
+    /* Adjust font-sizes and other styles for smaller screens */
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    /* Add any additional styles for mobile layout here */
+}
